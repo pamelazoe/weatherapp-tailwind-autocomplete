@@ -27,4 +27,4 @@ yarn-error.log*
 
 App.js
 ./App.js
-./public/index.html
+/public/index.html
