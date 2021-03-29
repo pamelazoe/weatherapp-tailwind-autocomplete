@@ -1,0 +1,73 @@
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='24' height='24'%0AviewBox='0 0 172 172'%0Astyle=' fill:%23e2e2e2;'%3E%3Cg fill='none' fill-rule='nonzero' stroke='none' stroke-width='1' stroke-linecap='butt' stroke-linejoin='miter' stroke-miterlimit='10' stroke-dasharray='' stroke-dashoffset='0' font-family='none' font-weight='none' font-size='none' text-anchor='none' style='mix-blend-mode: normal'%3E%3Cpath d='M0,172v-172h172v172z' fill='none'%3E%3C/path%3E%3Cg id='original-icon' fill='%23e2e2e2'%3E%3Cpath d='M86,100.84217l-27.38383,-27.38383c-2.967,-2.967 -7.783,-2.967 -10.75,0v0c-2.967,2.967 -2.967,7.783 0,10.75l33.067,33.067c2.80217,2.80217 7.33867,2.80217 10.13367,0l33.067,-33.067c2.967,-2.967 2.967,-7.783 0,-10.75v0c-2.967,-2.967 -7.783,-2.967 -10.75,0z'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 3vh;
+  /* background-position-x: right; */
+  background-position-x: calc(100% - 0.2rem);
+  background-position-y: center;
+  /* background-color: rgba(0, 0, 0, 0.21); */
+  border-radius: 7px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid green;
+  -webkit-text-fill-color: green;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+#country-selector {
+  /* background-color: rgba(0, 0, 0, 0.21); */
+  background-color: transparent;
+  /* color: #bdbdbd; */
+  border-radius: 7px;
+}
+
+#city {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+  background-color: transparent;
+  border-radius: 7px 0 0 7px;
+}
+#search-button {
+  background-color: transparent;
+  border-radius: 0 7px 7px 0;
+}
+#city-input {
+  /* background: rgba(0, 0, 0, 0.21); */
+  background: transparent;
+  border-radius: 7px;
+}
+
+#lll {
+  background-attachment: fixed;
+  background: inherit;
+}
+
+#city::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #bdbdbd;
+  opacity: 1; /* Firefox */
+}
+
+#city:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bdbdbd;
+}
+
+#city::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #bdbdbd;
+}

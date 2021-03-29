@@ -1,0 +1,10 @@
+#logo {
+	-webkit-text-fill-color: #fff;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: hsla(0, 0%, 83.1%, 0.8);
+}
+.menu-item {
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: hsla(0, 0%, 83.1%, 0.8);
+}
